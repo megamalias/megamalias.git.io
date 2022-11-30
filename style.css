@@ -20,7 +20,7 @@ header {
 }
 
 nav {
-    background-image: url('h1.png');
+    background-image: url('H1.png');
     padding: 5px;
     top: 0;
     position: sticky;
@@ -39,10 +39,26 @@ nav li {
 nav a:hover {
     font-weight: bold;
     text-decoration: underline;
+	color: black;
 }
 nav a:active {
     color: blue;
 }
+
+article a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+	color: black;
+}
+article a:active {
+    color: black;
+}
+article a {
+    color: black;
+    text-decoration: bold;
+    font-weight: 400;
+}
+
 
 main {
     padding: 20px;
@@ -141,7 +157,7 @@ aside {
 
 footer {
     text-align: center;
-    background-image: url('h1.png');
+    background-image: url('H1.png');
     padding: 10px;
     color: white;
     font-weight: bold;
